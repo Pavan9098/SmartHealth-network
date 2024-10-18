@@ -1,0 +1,60 @@
+/* src/components/HomePage.css */
+.home-page {
+    text-align: center;
+    color: #fff;
+    background-color: #58bfd1;
+    background-image: url("https://transparenttextures.com/patterns/blizzard.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */   
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 10px;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px; /* Adjust this value if needed */
+    right: 20px;  /* Adjust this value if needed */
+    z-index: 1000; /* Ensures button is on top */
+     /* Custom background color if needed */
+    color: #fff; /* Custom text color if needed */
+    display: inline;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.registration-forms {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}

@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  .menu-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .profile-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .profile-info {
+    margin-top: 20px;
+  }
+  
+  .profile-info h2,
+  .profile-info p {
+    margin: 10px 0;
+  }
+  
+  .about {
+    margin-top: 20px;
+  }
+  
+  .appointment-btn {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile-image img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .profile-info h2,
+    .profile-info p {
+      font-size: 0.9em;
+    }
+  
+    .appointment-btn {
+      padding: 8px 16px;
+    }
+  }
+  
